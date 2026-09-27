@@ -1,0 +1,34 @@
+# PostgreSQL / database files
+*.db
+*.sqlite
+*.sqlite3
+*.dump
+*.backup
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Temporary / swap files
+*.swp
+*.swo
+*.tmp
+*.bak
+*~
+
+# IDE / editor files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test output / generated files
+coverage/
+reports/
